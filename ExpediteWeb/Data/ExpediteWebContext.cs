@@ -13,7 +13,7 @@ namespace ExpediteWeb.Data
             : base(options)
         {
         }
-
-        public DbSet<User> User { get; set; }
+        //Class name is always singular And Db table name is always plural 
+        public DbSet<User> Users { get; set; }
     }
 }
