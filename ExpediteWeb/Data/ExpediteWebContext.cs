@@ -14,6 +14,6 @@ namespace ExpediteWeb.Data
         {
         }
 
-        public DbSet<ExpediteWeb.Models.User> User { get; set; }
+        public DbSet<User> User { get; set; }
     }
 }
