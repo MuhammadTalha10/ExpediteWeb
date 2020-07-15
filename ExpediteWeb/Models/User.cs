@@ -8,8 +8,10 @@ namespace ExpediteWeb.Models
 {
     public class User
     {
+        //ID should be Id
         public int ID { get; set; }
         public string Name { get; set; }
+        //same here
         public string UserID { get; set; }
 
         [DataType(DataType.Date)]
